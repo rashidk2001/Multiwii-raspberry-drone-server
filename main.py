@@ -25,7 +25,7 @@ class Main():
 		self.hello = "hello"
 		test = "test"
 		self.board = board
-		self.camera = camera
+		self.camera = false
 		self.webServer = server.server(80, self.board, self.camera)
 		self.webServer.start(True)
 
